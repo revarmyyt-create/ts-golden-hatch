@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T's Golden Hatch Poultry Farm</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header id="header" class="header">
+    <nav class="topnav container">
+      <div class="brand">
+        <img src="img/chicks.jpg" alt="T's Golden Hatch Logo" class="brand__logo">
+        <a href="#home" class="brand__title">T's Golden Hatch</a>
+      </div>
+
+      <div id="nav-menu" class="nav__menu">
+        <a href="#" class="nav__close" id="nav-close"><i class="ri-close-line"></i></a>
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active-link">Home</a></li>
+          <li><a href="#products" class="nav__link">Products</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#gallery" class="nav__link">Gallery</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle"><i class="ri-menu-line"></i></div>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section home">
+      <div class="container home__container">
+        <div class="home__media">
+          <img src="img/chicks.jpg" alt="Chicks in brooder" class="home__img">
+        </div>
+        <div class="home__content">
+          <h1 class="home__title">T's Golden Hatch Poultry Farm</h1>
+          <h2 class="home__subtitle">Healthy birds • Quality feed • Trusted service</h2>
+          <p class="home__description">We rear healthy broilers and layers, supply feed & vaccines, and offer advisory services for small and medium poultry farms.</p>
+          <div class="home__actions">
+            <a href="#products" class="button button--primary">See Our Stock</a>
+            <a href="#contact" class="button button--outline">Contact Us</a>
+          </div>
+          <ul class="home__features">
+            <li><i class="ri-check-line"></i> Vaccinated birds</li>
+            <li><i class="ri-check-line"></i> Quality feed blends</li>
+            <li><i class="ri-check-line"></i> Farm advisory</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section products">
+      <div class="container">
+        <h2 class="section__title">Our Products & Services</h2>
+        <div class="products__grid">
+          <!-- Product Cards -->
+          <article class="product__card">
+            <img src="img/dayold.jpg" alt="Broiler chicks" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Day-old Broiler Chicks</h3>
+              <p class="product__desc">Healthy day-old chicks from monitored breeders. Minimum order: 50 chicks.</p>
+              <div class="product__meta">
+                <span class="product__price">GHS 7.50 / chick</span>
+                <button class="button button--small">Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product__card">
+            <img src="img/layer.jpg" alt="Layer chicks" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Layer Pullets</h3>
+              <p class="product__desc">Pullets ready for rearing to egg-laying age. Vaccination history provided.</p>
+              <div class="product__meta">
+                <span class="product__price">GHS 45.00 / bird</span>
+                <button class="button button--small">Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product__card">
+            <img src="img/starter.jpg" alt="Bag of poultry feed" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Starter Feed (25kg)</h3>
+              <p class="product__desc">Balanced starter mash for early growth (vitamins & minerals included).</p>
+              <div class="product__meta">
+                <span class="product__price">GHS 120.00 / bag</span>
+                <button class="button button--small">Buy</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product__card">
+            <img src="img/advisors.jpg" alt="Onsite advisory" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Farm Advisory</h3>
+              <p class="product__desc">Setup, biosecurity, vaccination schedule & feed programs for farms of any size.</p>
+              <div class="product__meta">
+                <span class="product__price">From GHS 150</span>
+                <button class="button button--small">Book</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container about__row">
+        <div class="about__media">
+          <img src="img/poultryh.webp" alt="Poultry house" class="about__img">
+        </div>
+        <div class="about__content">
+          <h2 class="section__title">About T's Golden Hatch</h2>
+          <p>T's Golden Hatch is a community-focused poultry farm providing healthy birds, quality feed, and on-farm support.</p>
+          <h3>What we offer</h3>
+          <ul>
+            <li>Day-old broiler & layer chicks</li>
+            <li>Commercial feed in 25kg bags</li>
+            <li>Biosecurity & vaccination guidance</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container about__row reverse">
+        <div class="about__content">
+          <h3>How we work (simple process)</h3>
+          <ol>
+            <li>Get in touch or place an order.</li>
+            <li>We confirm stock and prepare shipment.</li>
+            <li>Delivery or pick-up; we provide handling notes.</li>
+            <li>Aftercare support and advisory visits (optional).</li>
+          </ol>
+          <p class="muted">All birds are health-checked and vaccinated before dispatch.</p>
+        </div>
+        <div class="about__media">
+          <img src="img/team.jpg" alt="Farm team" class="about__img">
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <h2 class="section__title">Gallery</h2>
+        <div class="gallery__grid">
+          <figure><img src="img/chicks1.jpeg" alt="Broilers" class="gallery__img"><figcaption>Broilers ready for dispatch</figcaption></figure>
+          <figure><img src="img/chicks2.jpeg" alt="Layers" class="gallery__img"><figcaption>Layer flock</figcaption></figure>
+          <figure><img src="img/storage.jpeg" alt="Feed mill" class="gallery__img"><figcaption>Feed storage</figcaption></figure>
+          <figure><img src="img/vac.jpg" alt="Vaccination" class="gallery__img"><figcaption>Onsite vaccination</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container contact__wrap">
+        <div class="contact__form">
+          <h2 class="section__title">Contact Us</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="tel" name="phone" placeholder="Phone (+233…)" required>
+            </div>
+            <div class="form-row">
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="text" name="location" placeholder="Town / City" required>
+            </div>
+            <textarea name="message" placeholder="Message / Order details" rows="5" required></textarea>
+            <div class="form-actions">
+              <button type="submit" class="button button--primary">Send Message</button>
+              <button type="button" id="clearBtn" class="button button--outline">Clear</button>
+            </div>
+            <div id="formMsg" class="form-msg"></div>
+          </form>
+        </div>
+
+        <aside class="contact__info">
+          <h3>Visit or call</h3>
+          <p><strong>Phone:</strong> +233 24 000 0000</p>
+          <p><strong>Email:</strong> info@tsgoldenhatch.com</p>
+          <p><strong>Location:</strong> Nsawam Road, Accra, Ghana</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="img/logo.png" alt="T's Golden Hatch" class="footer__logo">
+        <p>T's Golden Hatch Poultry Farm — caring for birds & farmers.</p>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> T's Golden Hatch. All rights reserved.</p>
+  </footer>
+
+  <!-- SCROLL UP -->
+  <a href="#" id="scroll-up" class="scrollup"><i class="ri-arrow-up-s-line"></i></a>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>
